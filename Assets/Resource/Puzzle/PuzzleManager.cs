@@ -10,18 +10,37 @@ public class PuzzleManager : MonoBehaviour
     public AudioClip failureSound;
     private AudioSource audioSource;
 
+    [Header("퍼즐 설정")]
+    public RectTransform spawnArea;       // ★ 원이 생성될 영역 (배경 이미지)
+    public float spawnInterval = 3f;      // ★ 생성 시간 간격 (3초)
+
     void Start()
     {
         audioSource = GetComponent<AudioSource>(); // PuzzleManager에 있는 AudioSource
+
+        // 게임이 시작되면 원 생성 코루틴을 바로 실행합니다.
+        StartCoroutine(CircleSpawningRoutine());
+
     }
-
-
-    void Update()
+    private System.Collections.IEnumerator CircleSpawningRoutine()
     {
-        // 테스트를 위해 스페이스 바를 누르면 새 원이 생성되게 함
-        if (Input.GetKeyDown(KeyCode.Space))
+        // 게임이 진행되는 동안 계속 반복합니다.
+        while (true)
         {
-            SpawnCircle();
+            // 1. 정해진 시간만큼 대기합니다.
+            yield return new WaitForSeconds(spawnInterval);
+
+            // 2. spawnArea 내부의 랜덤 좌표를 계산합니다.
+            Rect spawnRect = spawnArea.rect;
+            float randomX = Random.Range(spawnRect.xMin, spawnRect.xMax);
+            float randomY = Random.Range(spawnRect.yMin, spawnRect.yMax);
+            Vector2 randomPosition = new Vector2(randomX, randomY);
+
+            // 3. 프리팹을 spawnArea의 자식으로 생성합니다.
+            GameObject newCircle = Instantiate(growingCirclePrefab, spawnArea);
+
+            // 4. 생성된 원의 위치를 랜덤 좌표로 설정합니다.
+            newCircle.GetComponent<RectTransform>().localPosition = randomPosition;
         }
     }
 
