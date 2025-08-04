@@ -251,10 +251,8 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ea113c8bc6079284cbf84f6824c0982e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1792490986}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: ea113c8bc6079284cbf84f6824c0982e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1792490988}
   m_SourcePrefab: {fileID: 100100000, guid: ea113c8bc6079284cbf84f6824c0982e, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -420,6 +418,8 @@ AudioSource:
 >>>>>>> parent of 83149a6 (Revert "Puzzle에 태그달기")
 =======
 >>>>>>> parent of 0b2e6c3 (Revert "Feat: 인벤토리 기능 구현")
+=======
+>>>>>>> parent of b9b27e2 (체크)
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,32 +602,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529175748}
   m_CullTransparentMesh: 1
---- !u!1 &596259827 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bb6002b166152044b915118a5fcadf7, type: 3}
-  m_PrefabInstance: {fileID: 1370289481}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &596259829
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 596259827}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 2, y: 6, z: 2}
-  m_Center: {x: 0, y: 3, z: -0.3}
 --- !u!1 &681428251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: adc21bedce0244e4a96657e674ca84fc, type: 3}
@@ -809,23 +783,21 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.6
-  m_Height: 2.5
+  m_Radius: 0.8
+  m_Height: 3
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of b9b27e2 (체크)
 --- !u!1 &701743910
 GameObject:
-=======
---- !u!54 &681428261
-Rigidbody:
->>>>>>> parent of 83149a6 (Revert "Puzzle에 태그달기")
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 701743911}
@@ -970,6 +942,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 725767528}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 =======
   m_GameObject: {fileID: 681428251}
   serializedVersion: 5
@@ -995,6 +968,8 @@ CanvasRenderer:
 >>>>>>> parent of 83149a6 (Revert "Puzzle에 태그달기")
 =======
 >>>>>>> parent of 0b2e6c3 (Revert "Feat: 인벤토리 기능 구현")
+=======
+>>>>>>> parent of b9b27e2 (체크)
 --- !u!1001 &783728487
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1075,22 +1050,15 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 5dced5362d6c5484da197643cccbd65c, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of b9b27e2 (체크)
 --- !u!1 &861702822
 GameObject:
-=======
---- !u!1 &929721783 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bb6002b166152044b915118a5fcadf7, type: 3}
-  m_PrefabInstance: {fileID: 1820514629}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &929721785
-BoxCollider:
->>>>>>> parent of 83149a6 (Revert "Puzzle에 태그달기")
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 861702823}
@@ -1235,6 +1203,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894678346}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 =======
   m_GameObject: {fileID: 929721783}
   m_Material: {fileID: 0}
@@ -1254,6 +1223,8 @@ CanvasRenderer:
 >>>>>>> parent of 83149a6 (Revert "Puzzle에 태그달기")
 =======
 >>>>>>> parent of 0b2e6c3 (Revert "Feat: 인벤토리 기능 구현")
+=======
+>>>>>>> parent of b9b27e2 (체크)
 --- !u!1 &941464173
 GameObject:
   m_ObjectHideFlags: 0
@@ -1351,12 +1322,15 @@ RectTransform:
   - {fileID: 529175749}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - {fileID: 1959004177}
 >>>>>>> parent of 83149a6 (Revert "Puzzle에 태그달기")
 =======
   - {fileID: 1204722136}
 >>>>>>> parent of 0b2e6c3 (Revert "Feat: 인벤토리 기능 구현")
+=======
+>>>>>>> parent of b9b27e2 (체크)
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1406,11 +1380,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: adc21bedce0244e4a96657e674ca84fc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.41
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: adc21bedce0244e4a96657e674ca84fc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.683
+      value: 0.77
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: adc21bedce0244e4a96657e674ca84fc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1470,12 +1444,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: adc21bedce0244e4a96657e674ca84fc, type: 3}
       insertIndex: -1
       addedObject: {fileID: 681428260}
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: adc21bedce0244e4a96657e674ca84fc, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 681428261}
   m_SourcePrefab: {fileID: 100100000, guid: adc21bedce0244e4a96657e674ca84fc, type: 3}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of b9b27e2 (체크)
 --- !u!1 &1018214158
 =======
 --- !u!1 &1204722135
@@ -1554,8 +1528,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1204722135}
   m_CullTransparentMesh: 1
-=======
->>>>>>> parent of 83149a6 (Revert "Puzzle에 태그달기")
 --- !u!1 &1309822547
 GameObject:
   m_ObjectHideFlags: 0
@@ -1867,10 +1839,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bb6002b166152044b915118a5fcadf7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 596259829}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bb6002b166152044b915118a5fcadf7, type: 3}
 --- !u!1 &1459312919
 GameObject:
@@ -2138,17 +2107,15 @@ BoxCollider:
   m_Center: {x: 0, y: 2, z: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of b9b27e2 (체크)
 --- !u!1 &1802373503
 GameObject:
-=======
---- !u!65 &1792490988
-BoxCollider:
->>>>>>> parent of 83149a6 (Revert "Puzzle에 태그달기")
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1802373504}
@@ -2218,6 +2185,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1802373503}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
 =======
   m_GameObject: {fileID: 1792490984}
   m_Material: {fileID: 0}
@@ -2237,6 +2205,8 @@ CanvasRenderer:
 >>>>>>> parent of 83149a6 (Revert "Puzzle에 태그달기")
 =======
 >>>>>>> parent of 0b2e6c3 (Revert "Feat: 인벤토리 기능 구현")
+=======
+>>>>>>> parent of b9b27e2 (체크)
 --- !u!1001 &1820514629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2292,10 +2262,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 1bb6002b166152044b915118a5fcadf7, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 929721785}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bb6002b166152044b915118a5fcadf7, type: 3}
 --- !u!1001 &1932744897
 PrefabInstance:
@@ -2354,50 +2321,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dced5362d6c5484da197643cccbd65c, type: 3}
---- !u!1 &1959004176
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1959004177}
-  - component: {fileID: 1959004178}
-  m_Layer: 5
-  m_Name: SpawnArea
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1959004177
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959004176}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 941464177}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 350, y: 200}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1959004178
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1959004176}
-  m_CullTransparentMesh: 1
 --- !u!1 &1996072414
 GameObject:
   m_ObjectHideFlags: 0
